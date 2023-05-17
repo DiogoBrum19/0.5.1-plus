@@ -1,0 +1,108 @@
+h1{
+    padding-left: 18em;  
+    }
+    :root{
+        --cor-pendentes:#8FD14F;
+        --cor-concluidas:#0CA789;
+        --cor-excluidas:#EB4045;
+        --cor-texto: white;
+    }
+    
+    a{
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+    }
+    .Pendentes{
+        background-color: var(--cor-pendentes);
+        border-radius: 20px;
+        border: 2px;
+        color: var(--cor-texto);
+        margin: 5px;
+    }
+        
+    .Concluidas{
+        background-color: var(--cor-concluidas);
+        border-radius: 20px;
+        color: var(--cor-texto);
+        margin: 5px;
+    }
+    
+    .Excluidas{
+        background-color: var(--cor-excluidas);
+        border-radius: 20px;
+        color: var(--cor-texto);
+        margin: 5px;
+    }
+    
+    ul {
+        text-align: center;
+    
+    }
+    
+    div{
+        padding: 2px;
+        margin: 50px;
+    
+    }
+    
+    div:hover{
+        transform: scale(1.1);
+    }
+    
+    .tarefa{
+        width: 30em;
+        border-radius: 15px;
+        border: 2px #8FD14F solid;
+        margin: 15px;
+        margin-left: 26em;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        background-color: var(--cor-pendentes);
+        transition: 0.2s ease-in-out;
+    }
+    
+    .tarefa:nth-child(even){
+        background-color: white;
+        color: gray;
+    }
+    
+    .concluida{
+        width: 30em;
+        border-radius: 15px;
+        border: 2px #0CA789 solid;;
+        margin: 15px;
+        margin-left: 26em;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        background-color: var(--cor-concluidas);
+        transition: 0.2s ease-in-out;
+    }
+    
+    .concluida:nth-child(even){
+        background-color: white;
+        border: 2px color white;
+        color: gray;
+    }
+    
+    .excluida{
+        width: 30em;
+        border-radius: 15px;
+        border: 2px #EB4045 solid;
+        margin: 15px;
+        margin-left: 26em;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        background-color: var(--cor-excluidas);
+        transition: 0.2s ease-in-out;
+    }
+    
+    .excluida:nth-child(even){
+        background-color: white;
+        border: 2px color white;
+        color: gray;
+    }
